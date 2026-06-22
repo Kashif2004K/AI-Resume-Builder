@@ -72,7 +72,7 @@ const Education = ({ resumeData, setResumeData }) => {
             name="university"
             value={edu.university}
             onChange={(e) => handleChange(index, e)}
-            placeholder="Lahore Garrison University"
+            placeholder="University"
           />
 
           <Input

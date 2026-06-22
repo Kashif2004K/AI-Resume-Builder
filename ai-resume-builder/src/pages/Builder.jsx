@@ -44,7 +44,9 @@ const Builder = () => {
 
   return (
     <div className="max-w-6xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">AI Resume Builder</h1>
+      <h1 className="text-7xl font-bold text-center mb-6 text-gray-800">
+        <span className="text-orange-600">AI</span> Resume Builder
+      </h1>
       <div className="flex justify-center gap-3 mb-6">
         <button
           onClick={() => setSelectedTemplate("modern")}
