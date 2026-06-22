@@ -41,7 +41,7 @@ const Education = ({ resumeData, setResumeData }) => {
   };
 
   return (
-    <div className="bg-white p-5 rounded-xl shadow mb-6">
+    <div className="bg-[#fafafa] p-5 rounded-xl shadow mb-6">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold">Education</h2>
 

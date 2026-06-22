@@ -29,7 +29,7 @@ const ATSChecker = () => {
   };
 
   return (
-    <div className="bg-white p-4 rounded-xl shadow mt-6">
+    <div className="bg-[#fafafa] p-4 rounded-xl shadow mt-6">
       <h2 className="text-xl font-bold mb-3">ATS Score Checker (PDF Upload)</h2>
 
       <input

@@ -138,7 +138,7 @@ const ResumePreview = ({ resumeData, selectedTemplate }) => {
   const { personalInfo, education, skills, projects } = resumeData;
 
   return (
-    <div className="bg-white rounded-xl shadow h-full">
+    <div className="bg-[#fafafa] rounded-xl shadow h-full">
       {selectedTemplate === "modern" ? (
         <ModernTemplate
           personalInfo={personalInfo}

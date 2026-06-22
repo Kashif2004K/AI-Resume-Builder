@@ -16,7 +16,7 @@ const PersonalInfo = ({ resumeData, setResumeData }) => {
   const { fullName, email, phone, linkedin, github } = resumeData.personalInfo;
 
   return (
-    <div className="bg-white p-5 rounded-xl shadow mb-6">
+    <div className="bg-[#fafafa] p-5 rounded-xl shadow mb-6">
       <h2 className="text-xl font-semibold mb-4">Personal Information</h2>
 
       <Input

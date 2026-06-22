@@ -51,7 +51,9 @@ const Builder = () => {
         <button
           onClick={() => setSelectedTemplate("modern")}
           className={`px-4 py-2 rounded-lg border ${
-            selectedTemplate === "modern" ? "bg-black text-white" : "bg-white"
+            selectedTemplate === "modern"
+              ? "bg-[#fc8b00] text-white"
+              : "bg-white"
           }`}
         >
           Modern
@@ -60,7 +62,9 @@ const Builder = () => {
         <button
           onClick={() => setSelectedTemplate("classic")}
           className={`px-4 py-2 rounded-lg border ${
-            selectedTemplate === "classic" ? "bg-black text-white" : "bg-white"
+            selectedTemplate === "classic"
+              ? "bg-[#fc8b00] text-white"
+              : "bg-white"
           }`}
         >
           Classic
@@ -68,7 +72,7 @@ const Builder = () => {
       </div>
       <button
         onClick={handleDownloadPDF}
-        className="bg-black text-white px-4 py-2 rounded-lg mb-6 hover:bg-gray-800"
+        className="bg-[#fc8b00] text-white px-4 py-2 rounded-lg mb-6 hover:bg-[#e67e00]"
       >
         Download PDF
       </button>
