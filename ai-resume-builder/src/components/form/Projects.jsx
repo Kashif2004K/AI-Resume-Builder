@@ -1,5 +1,5 @@
 import Input from "../common/Input";
-import AIGenerator from "../common/AIGenerator";
+import AIGenerator from "../common/AiGenerator";
 
 const Projects = ({ resumeData, setResumeData }) => {
   // Add new project
